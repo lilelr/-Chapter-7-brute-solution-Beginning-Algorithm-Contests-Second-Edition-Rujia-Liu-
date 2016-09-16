@@ -77,6 +77,22 @@ void print_permutation_p(int n, int* A, int cur) {
 int n;
 int nums[maxn];
 
+// 使用c++ STL <algorithm> 提供的next_permutation 求全排列的算法
+void solve() {
+  int p[10];
+  for (int i = 0; i < n; i++) {
+    cin >> p[i];
+  }
+  sort(p, p + n);
+  while (next_permutation(p, p + n)) {
+    mutation_count++;
+    for (int i = 0; i < n; i++) {
+      cout << p[i] << " ";
+    }
+    cout << endl;
+  }
+}
+
 int main() {
   //  freopen("/Users/yuxiao/XcodeProject/7.brute solution/7.brute solution/in",
   //          "r", stdin);
@@ -90,11 +106,12 @@ int main() {
   while (T--) {
     cin >> n;
     mutation_count = 0;
-    //    print_permutation(n, nums, 0);
-    for (int i = 0; i < n; i++) {
-      target_arr[i] = n - i;
-    }
-    print_permutation_p(n, nums, 0);
+    solve();
+    //    //    print_permutation(n, nums, 0);
+    //    for (int i = 0; i < n; i++) {
+    //      target_arr[i] = 1;
+    //    }
+    //    print_permutation_p(n, nums, 0);
     cout << "mutation_count: " << mutation_count << endl;
   }
   return 0;

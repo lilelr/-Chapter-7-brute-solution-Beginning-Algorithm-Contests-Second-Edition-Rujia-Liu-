@@ -1,4 +1,5 @@
 //递归法求全排列  3!= 3*2*1 = 6
+//给出特定的数组，输出它的全排列
 #include <algorithm>
 #include <cmath>
 #include <cstdio>
@@ -63,9 +64,8 @@ void print_permutation_p(int n, int* A, int cur) {
           }
         }
 
-        if (c1 <
-            c2) {  //能够输出
-                   //包含重复元素的序列组合“1，1，1”，结合之前的if判断，使得只输出一次
+        if (c1 < c2) {  //能够输出
+          //包含重复元素的序列组合“1，1，1”，结合之前的if判断，使得只输出一次
           A[cur] = target_arr[i];
           print_permutation_p(n, A, cur + 1);
         }

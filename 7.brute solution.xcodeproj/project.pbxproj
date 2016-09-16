@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DE64CA541D8C211F007C5E64 /* permutation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE64CA531D8C211F007C5E64 /* permutation.cpp */; };
+		DE64CA5D1D8C45C0007C5E64 /* subset.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE64CA5C1D8C45C0007C5E64 /* subset.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,7 @@
 		DE64CA531D8C211F007C5E64 /* permutation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = permutation.cpp; sourceTree = "<group>"; };
 		DE64CA5A1D8C2134007C5E64 /* in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = in; sourceTree = "<group>"; };
 		DE64CA5B1D8C213C007C5E64 /* out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = out; sourceTree = "<group>"; };
+		DE64CA5C1D8C45C0007C5E64 /* subset.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = subset.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				DE64CA531D8C211F007C5E64 /* permutation.cpp */,
 				DE64CA5A1D8C2134007C5E64 /* in */,
 				DE64CA5B1D8C213C007C5E64 /* out */,
+				DE64CA5C1D8C45C0007C5E64 /* subset.cpp */,
 			);
 			path = "7.brute solution";
 			sourceTree = "<group>";
@@ -123,6 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE64CA541D8C211F007C5E64 /* permutation.cpp in Sources */,
+				DE64CA5D1D8C45C0007C5E64 /* subset.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

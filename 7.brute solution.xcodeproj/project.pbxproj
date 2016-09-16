@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DE64CA541D8C211F007C5E64 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE64CA531D8C211F007C5E64 /* main.cpp */; };
+		DE64CA541D8C211F007C5E64 /* permutation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE64CA531D8C211F007C5E64 /* permutation.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,9 @@
 
 /* Begin PBXFileReference section */
 		DE64CA501D8C211F007C5E64 /* 7.brute solution */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "7.brute solution"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE64CA531D8C211F007C5E64 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		DE64CA531D8C211F007C5E64 /* permutation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = permutation.cpp; sourceTree = "<group>"; };
+		DE64CA5A1D8C2134007C5E64 /* in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = in; sourceTree = "<group>"; };
+		DE64CA5B1D8C213C007C5E64 /* out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = out; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +59,9 @@
 		DE64CA521D8C211F007C5E64 /* 7.brute solution */ = {
 			isa = PBXGroup;
 			children = (
-				DE64CA531D8C211F007C5E64 /* main.cpp */,
+				DE64CA531D8C211F007C5E64 /* permutation.cpp */,
+				DE64CA5A1D8C2134007C5E64 /* in */,
+				DE64CA5B1D8C213C007C5E64 /* out */,
 			);
 			path = "7.brute solution";
 			sourceTree = "<group>";
@@ -118,7 +122,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE64CA541D8C211F007C5E64 /* main.cpp in Sources */,
+				DE64CA541D8C211F007C5E64 /* permutation.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

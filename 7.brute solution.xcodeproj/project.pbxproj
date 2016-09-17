@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		DE64CA541D8C211F007C5E64 /* permutation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE64CA531D8C211F007C5E64 /* permutation.cpp */; };
 		DE64CA5D1D8C45C0007C5E64 /* subset.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE64CA5C1D8C45C0007C5E64 /* subset.cpp */; };
+		DEF5076C1D8CE3B90085AA0D /* eight_queens.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEF5076B1D8CE3B90085AA0D /* eight_queens.cpp */; };
+		DEF5076E1D8D2BF70085AA0D /* 524 Prime Ring Problem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEF5076D1D8D2BF70085AA0D /* 524 Prime Ring Problem.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +31,8 @@
 		DE64CA5A1D8C2134007C5E64 /* in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = in; sourceTree = "<group>"; };
 		DE64CA5B1D8C213C007C5E64 /* out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = out; sourceTree = "<group>"; };
 		DE64CA5C1D8C45C0007C5E64 /* subset.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = subset.cpp; sourceTree = "<group>"; };
+		DEF5076B1D8CE3B90085AA0D /* eight_queens.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = eight_queens.cpp; sourceTree = "<group>"; };
+		DEF5076D1D8D2BF70085AA0D /* 524 Prime Ring Problem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "524 Prime Ring Problem.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +69,8 @@
 				DE64CA5A1D8C2134007C5E64 /* in */,
 				DE64CA5B1D8C213C007C5E64 /* out */,
 				DE64CA5C1D8C45C0007C5E64 /* subset.cpp */,
+				DEF5076B1D8CE3B90085AA0D /* eight_queens.cpp */,
+				DEF5076D1D8D2BF70085AA0D /* 524 Prime Ring Problem.cpp */,
 			);
 			path = "7.brute solution";
 			sourceTree = "<group>";
@@ -125,8 +131,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEF5076E1D8D2BF70085AA0D /* 524 Prime Ring Problem.cpp in Sources */,
 				DE64CA541D8C211F007C5E64 /* permutation.cpp in Sources */,
 				DE64CA5D1D8C45C0007C5E64 /* subset.cpp in Sources */,
+				DEF5076C1D8CE3B90085AA0D /* eight_queens.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +253,7 @@
 				DE64CA591D8C211F007C5E64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

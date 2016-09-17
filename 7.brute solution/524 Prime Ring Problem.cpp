@@ -1,4 +1,5 @@
-//https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=841&problem=465&mosmsg=Submission+received+with+ID+18014702 素数环 回溯
+// https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=841&problem=465&mosmsg=Submission+received+with+ID+18014702
+// 素数环 回溯 判断质数
 #include <algorithm>
 #include <cmath>
 #include <cstdio>
@@ -75,10 +76,11 @@ void prime_ring(int cur) {
 }
 
 int main() {
-//  freopen("/Users/yuxiao/XcodeProject/7.brute solution/7.brute solution/in",
-//          "r", stdin);
-//  freopen("/Users/yuxiao/XcodeProject/7.brute solution/7.brute solution/out",
-//          "w", stdout);
+  //  freopen("/Users/yuxiao/XcodeProject/7.brute solution/7.brute solution/in",
+  //          "r", stdin);
+  //  freopen("/Users/yuxiao/XcodeProject/7.brute solution/7.brute
+  //  solution/out",
+  //          "w", stdout);
 
   int t;
 

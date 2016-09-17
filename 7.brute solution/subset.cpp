@@ -48,18 +48,18 @@ void print_subset(int n, int* A, int cur) {
 //位向量法求子集
 void print_subset2(int n, int* B, int cur) {
   if (cur == n) {
-    for (int i = 0; i < cur; i++) {
+    for (int i = 0; i < n; i++) {
       if (B[i]) {
         cout << i << " ";
       }
     }
     cout << endl;
-    return;
+  } else {
+    B[cur] = 1;
+    print_subset2(n, B, cur + 1);
+    B[cur] = 0;
+    print_subset2(n, B, cur + 1);
   }
-  B[cur] = 1;
-  print_subset2(n, B, cur + 1);  //选第cur个元素
-  B[cur] = 0;
-  print_subset2(n, B, cur + 1);  // 不选第cur个元素
 }
 
 int n;

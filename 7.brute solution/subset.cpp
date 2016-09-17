@@ -31,6 +31,7 @@ void print_subset(int n, int* A, int cur) {
     cout << A[i] << " ";  //打印当前集合
   }
   cout << endl;
+  // cur 的值是不变的，直到下一次递归，因此for循环可以使A[0]=0，1，2
   int small = (cur ? A[cur - 1] + 1 : 0);  //确定当前元素的最小可能值
   for (int i = small; i < n; i++) {
     A[cur] = i;
@@ -48,18 +49,20 @@ void print_subset(int n, int* A, int cur) {
 //位向量法求子集
 void print_subset2(int n, int* B, int cur) {
   if (cur == n) {
-    for (int i = 0; i < n; i++) {
+    for (int i = 0; i < cur; i++) {
       if (B[i]) {
         cout << i << " ";
       }
     }
     cout << endl;
-  } else {
-    B[cur] = 1;
-    print_subset2(n, B, cur + 1);
-    B[cur] = 0;
-    print_subset2(n, B, cur + 1);
+    return;
   }
+  // cur 的值是不变的，直到下一次递归过程，因此可以保证B[0] = 1,B[0] =
+  // 0都会遍历到
+  B[cur] = 1;
+  print_subset2(n, B, cur + 1);  //选第cur个元素
+  B[cur] = 0;
+  print_subset2(n, B, cur + 1);  // 不选第cur个元素
 }
 
 int n;
@@ -74,7 +77,7 @@ int main() {
   t = 1;
   while (T--) {
     cin >> n;
-    print_subset2(n, visited, 0);
+    print_subset(n, visited, 0);
   }
   return 0;
 }

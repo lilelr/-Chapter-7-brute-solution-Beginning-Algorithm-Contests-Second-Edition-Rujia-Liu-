@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE1EC17C1DA8944900CE3A3F /* Uva12325 Zobie's Treasure Chest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE1EC17B1DA8944900CE3A3F /* Uva12325 Zobie's Treasure Chest.cpp */; };
 		DE64CA541D8C211F007C5E64 /* permutation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE64CA531D8C211F007C5E64 /* permutation.cpp */; };
 		DE64CA5D1D8C45C0007C5E64 /* subset.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE64CA5C1D8C45C0007C5E64 /* subset.cpp */; };
 		DEF5076C1D8CE3B90085AA0D /* eight_queens.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEF5076B1D8CE3B90085AA0D /* eight_queens.cpp */; };
@@ -27,6 +28,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DE1EC17B1DA8944900CE3A3F /* Uva12325 Zobie's Treasure Chest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Uva12325 Zobie's Treasure Chest.cpp"; sourceTree = "<group>"; };
 		DE64CA501D8C211F007C5E64 /* 7.brute solution */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "7.brute solution"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE64CA531D8C211F007C5E64 /* permutation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = permutation.cpp; sourceTree = "<group>"; };
 		DE64CA5A1D8C2134007C5E64 /* in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = in; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 				DEF5076B1D8CE3B90085AA0D /* eight_queens.cpp */,
 				DEF5076D1D8D2BF70085AA0D /* 524 Prime Ring Problem.cpp */,
 				DEF5076F1D8D62F40085AA0D /* 129 - Krypton Factor.cpp */,
+				DE1EC17B1DA8944900CE3A3F /* Uva12325 Zobie's Treasure Chest.cpp */,
 			);
 			path = "7.brute solution";
 			sourceTree = "<group>";
@@ -134,6 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE1EC17C1DA8944900CE3A3F /* Uva12325 Zobie's Treasure Chest.cpp in Sources */,
 				DEF5076E1D8D2BF70085AA0D /* 524 Prime Ring Problem.cpp in Sources */,
 				DE64CA541D8C211F007C5E64 /* permutation.cpp in Sources */,
 				DE64CA5D1D8C45C0007C5E64 /* subset.cpp in Sources */,

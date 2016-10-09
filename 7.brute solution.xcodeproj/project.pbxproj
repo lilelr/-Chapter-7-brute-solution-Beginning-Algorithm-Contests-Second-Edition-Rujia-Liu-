@@ -8,8 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		DE1EC17C1DA8944900CE3A3F /* Uva12325 Zobie's Treasure Chest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE1EC17B1DA8944900CE3A3F /* Uva12325 Zobie's Treasure Chest.cpp */; };
+		DE1EC17E1DA89BDB00CE3A3F /* Uva1343 The Rotation Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE1EC17D1DA89BDB00CE3A3F /* Uva1343 The Rotation Game.cpp */; };
 		DE64CA541D8C211F007C5E64 /* permutation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE64CA531D8C211F007C5E64 /* permutation.cpp */; };
 		DE64CA5D1D8C45C0007C5E64 /* subset.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE64CA5C1D8C45C0007C5E64 /* subset.cpp */; };
+		DEBA51031DAA14A60034D3D9 /* UVa1602 Lattice Animals.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEBA51021DAA14A60034D3D9 /* UVa1602 Lattice Animals.cpp */; };
 		DEF5076C1D8CE3B90085AA0D /* eight_queens.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEF5076B1D8CE3B90085AA0D /* eight_queens.cpp */; };
 		DEF5076E1D8D2BF70085AA0D /* 524 Prime Ring Problem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEF5076D1D8D2BF70085AA0D /* 524 Prime Ring Problem.cpp */; };
 		DEF507701D8D62F40085AA0D /* 129 - Krypton Factor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEF5076F1D8D62F40085AA0D /* 129 - Krypton Factor.cpp */; };
@@ -29,11 +31,14 @@
 
 /* Begin PBXFileReference section */
 		DE1EC17B1DA8944900CE3A3F /* Uva12325 Zobie's Treasure Chest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Uva12325 Zobie's Treasure Chest.cpp"; sourceTree = "<group>"; };
+		DE1EC17D1DA89BDB00CE3A3F /* Uva1343 The Rotation Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Uva1343 The Rotation Game.cpp"; sourceTree = "<group>"; };
+		DE1EC17F1DA8AEB800CE3A3F /* Uva1343 The Rotation Game.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Uva1343 The Rotation Game.jpg"; sourceTree = "<group>"; };
 		DE64CA501D8C211F007C5E64 /* 7.brute solution */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "7.brute solution"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE64CA531D8C211F007C5E64 /* permutation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = permutation.cpp; sourceTree = "<group>"; };
 		DE64CA5A1D8C2134007C5E64 /* in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = in; sourceTree = "<group>"; };
 		DE64CA5B1D8C213C007C5E64 /* out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = out; sourceTree = "<group>"; };
 		DE64CA5C1D8C45C0007C5E64 /* subset.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = subset.cpp; sourceTree = "<group>"; };
+		DEBA51021DAA14A60034D3D9 /* UVa1602 Lattice Animals.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "UVa1602 Lattice Animals.cpp"; sourceTree = "<group>"; };
 		DEF5076B1D8CE3B90085AA0D /* eight_queens.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = eight_queens.cpp; sourceTree = "<group>"; };
 		DEF5076D1D8D2BF70085AA0D /* 524 Prime Ring Problem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "524 Prime Ring Problem.cpp"; sourceTree = "<group>"; };
 		DEF5076F1D8D62F40085AA0D /* 129 - Krypton Factor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "129 - Krypton Factor.cpp"; sourceTree = "<group>"; };
@@ -69,6 +74,7 @@
 		DE64CA521D8C211F007C5E64 /* 7.brute solution */ = {
 			isa = PBXGroup;
 			children = (
+				DE1EC17F1DA8AEB800CE3A3F /* Uva1343 The Rotation Game.jpg */,
 				DE64CA531D8C211F007C5E64 /* permutation.cpp */,
 				DE64CA5A1D8C2134007C5E64 /* in */,
 				DE64CA5B1D8C213C007C5E64 /* out */,
@@ -77,6 +83,8 @@
 				DEF5076D1D8D2BF70085AA0D /* 524 Prime Ring Problem.cpp */,
 				DEF5076F1D8D62F40085AA0D /* 129 - Krypton Factor.cpp */,
 				DE1EC17B1DA8944900CE3A3F /* Uva12325 Zobie's Treasure Chest.cpp */,
+				DE1EC17D1DA89BDB00CE3A3F /* Uva1343 The Rotation Game.cpp */,
+				DEBA51021DAA14A60034D3D9 /* UVa1602 Lattice Animals.cpp */,
 			);
 			path = "7.brute solution";
 			sourceTree = "<group>";
@@ -141,8 +149,10 @@
 				DEF5076E1D8D2BF70085AA0D /* 524 Prime Ring Problem.cpp in Sources */,
 				DE64CA541D8C211F007C5E64 /* permutation.cpp in Sources */,
 				DE64CA5D1D8C45C0007C5E64 /* subset.cpp in Sources */,
+				DEBA51031DAA14A60034D3D9 /* UVa1602 Lattice Animals.cpp in Sources */,
 				DEF5076C1D8CE3B90085AA0D /* eight_queens.cpp in Sources */,
 				DEF507701D8D62F40085AA0D /* 129 - Krypton Factor.cpp in Sources */,
+				DE1EC17E1DA89BDB00CE3A3F /* Uva1343 The Rotation Game.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		DE1B88A41DAE32D800B0FCEB /* Uva10603 Fill.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE1B88A31DAE32D800B0FCEB /* Uva10603 Fill.cpp */; };
+		DE1B88A61DAE66F300B0FCEB /* Uva 1601 The moning after Halloween.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE1B88A51DAE66F300B0FCEB /* Uva 1601 The moning after Halloween.cpp */; };
+		DE1B88A81DAE6C2500B0FCEB /* Uva11212 Editing a Book.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE1B88A71DAE6C2500B0FCEB /* Uva11212 Editing a Book.cpp */; };
 		DE1EC17C1DA8944900CE3A3F /* Uva12325 Zobie's Treasure Chest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE1EC17B1DA8944900CE3A3F /* Uva12325 Zobie's Treasure Chest.cpp */; };
 		DE1EC17E1DA89BDB00CE3A3F /* Uva1343 The Rotation Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE1EC17D1DA89BDB00CE3A3F /* Uva1343 The Rotation Game.cpp */; };
 		DE64CA541D8C211F007C5E64 /* permutation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE64CA531D8C211F007C5E64 /* permutation.cpp */; };
@@ -32,6 +34,8 @@
 
 /* Begin PBXFileReference section */
 		DE1B88A31DAE32D800B0FCEB /* Uva10603 Fill.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Uva10603 Fill.cpp"; sourceTree = "<group>"; };
+		DE1B88A51DAE66F300B0FCEB /* Uva 1601 The moning after Halloween.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Uva 1601 The moning after Halloween.cpp"; sourceTree = "<group>"; };
+		DE1B88A71DAE6C2500B0FCEB /* Uva11212 Editing a Book.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Uva11212 Editing a Book.cpp"; sourceTree = "<group>"; };
 		DE1EC17B1DA8944900CE3A3F /* Uva12325 Zobie's Treasure Chest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Uva12325 Zobie's Treasure Chest.cpp"; sourceTree = "<group>"; };
 		DE1EC17D1DA89BDB00CE3A3F /* Uva1343 The Rotation Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Uva1343 The Rotation Game.cpp"; sourceTree = "<group>"; };
 		DE1EC17F1DA8AEB800CE3A3F /* Uva1343 The Rotation Game.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Uva1343 The Rotation Game.jpg"; sourceTree = "<group>"; };
@@ -88,6 +92,8 @@
 				DE1EC17D1DA89BDB00CE3A3F /* Uva1343 The Rotation Game.cpp */,
 				DEBA51021DAA14A60034D3D9 /* UVa1602 Lattice Animals.cpp */,
 				DE1B88A31DAE32D800B0FCEB /* Uva10603 Fill.cpp */,
+				DE1B88A51DAE66F300B0FCEB /* Uva 1601 The moning after Halloween.cpp */,
+				DE1B88A71DAE6C2500B0FCEB /* Uva11212 Editing a Book.cpp */,
 			);
 			path = "7.brute solution";
 			sourceTree = "<group>";
@@ -148,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE1B88A61DAE66F300B0FCEB /* Uva 1601 The moning after Halloween.cpp in Sources */,
 				DE1EC17C1DA8944900CE3A3F /* Uva12325 Zobie's Treasure Chest.cpp in Sources */,
 				DE1B88A41DAE32D800B0FCEB /* Uva10603 Fill.cpp in Sources */,
 				DEF5076E1D8D2BF70085AA0D /* 524 Prime Ring Problem.cpp in Sources */,
@@ -155,6 +162,7 @@
 				DE64CA5D1D8C45C0007C5E64 /* subset.cpp in Sources */,
 				DEBA51031DAA14A60034D3D9 /* UVa1602 Lattice Animals.cpp in Sources */,
 				DEF5076C1D8CE3B90085AA0D /* eight_queens.cpp in Sources */,
+				DE1B88A81DAE6C2500B0FCEB /* Uva11212 Editing a Book.cpp in Sources */,
 				DEF507701D8D62F40085AA0D /* 129 - Krypton Factor.cpp in Sources */,
 				DE1EC17E1DA89BDB00CE3A3F /* Uva1343 The Rotation Game.cpp in Sources */,
 			);
